@@ -39,7 +39,7 @@ const LandingPage = () => (
             background: "url('/assets/pg1/button.png') center/cover no-repeat",
           }}
         >
-          <Typography color="white" fontSize={24} lineHeight={1}>
+          <Typography color="white" fontSize={24} lineHeight={1} fontWeight={700}>
             Swap
           </Typography>
           <Typography color="gray" fontSize={14} mt={0} lineHeight={1}>
@@ -56,7 +56,7 @@ const LandingPage = () => (
             background: "url('/assets/pg1/button.png') center/cover no-repeat",
           }}
         >
-          <Typography color="white" fontSize={24} lineHeight={1}>
+          <Typography color="white" fontSize={24} lineHeight={1} fontWeight={700}>
             CASI
           </Typography>
           <Typography color="gray" fontSize={14} mt={0} lineHeight={1}>
@@ -74,7 +74,7 @@ const LandingPage = () => (
               "url('/assets/pg1/button_act.png') center/cover no-repeat",
           }}
         >
-          <Typography color="white" fontSize={24}>
+          <Typography color="white" fontSize={24} fontWeight={700}>
             Play
           </Typography>
         </Stack>
@@ -84,7 +84,7 @@ const LandingPage = () => (
     <Box component="img" src="/assets/building_on.png" />
     {/* page 3 */}
     <Stack
-      height="100vh"
+      height="160vh"
       sx={{
         background:
           "black url('/assets/pg3/visual pg3.png') center/cover no-repeat",
@@ -93,7 +93,7 @@ const LandingPage = () => (
       boxSizing="border-box"
       justifyContent="center"
     >
-      <Typography color="#f99215" fontSize={36}>
+      <Typography color="#f99215" fontSize={36} fontFamily="CodecProBold!important">
         Blending AI
       </Typography>
       <Typography color="white" fontSize={20} maxWidth={600}>
@@ -133,7 +133,7 @@ const LandingPage = () => (
     </Stack>
     {/* page 4 */}
     <Stack height={80} justifyContent="center" alignItems="center">
-      <Typography color="#f99215" fontSize={36}>
+      <Typography color="#f99215" fontSize={36} fontFamily="CodecProBold!important">
         Tokenomics
       </Typography>
     </Stack>
@@ -144,6 +144,125 @@ const LandingPage = () => (
           "black url('/assets/tokenomics.png') center/contain no-repeat",
       }}
     />
+
+    {/* page 5: road map */}
+    <Stack height={80} justifyContent="center" alignItems="center" mt={10}>
+      <Typography color="#f99215" fontSize={36} fontFamily="CodecProBold!important">
+        Roadmap
+      </Typography>
+    </Stack>
+    <Stack
+      height="calc(100vh - 80px)"
+      sx={{
+        background:
+          "black url('/assets/pg5/roadmap.png') center/contain no-repeat",
+      }}
+    />
+    {/* page6: out team */}
+    <Box
+      component="img"
+      width="100%"
+      height={200}
+      src="/assets/pg6/team visual.png"
+    />
+    <Stack height={80} justifyContent="center" alignItems="center" mt={10}>
+      <Typography color="#f99215" fontSize={36} fontFamily="CodecProBold!important">
+        Our team
+      </Typography>
+    </Stack>
+    <Stack
+      height="calc(100vh - 80px)"
+      sx={{
+        background:
+          "black url('/assets/pg6/lights.png') center/contain no-repeat",
+      }}
+      direction="row"
+      justifyContent="space-around"
+      alignItems="center"
+    >
+      <Stack
+        position="relative"
+        width={300}
+        height={390}
+        alignItems="center"
+        justifyContent="flex-end"
+        sx={{
+          background: "url('/assets/pg6/member frame.png') center/cover no-repeat",
+        }}
+        pb={5}
+        boxSizing="border-box"
+        spacing={1}
+      >
+        <Typography color="#f99215" fontSize={24} lineHeight={1}>
+          Ril
+        </Typography>
+        <Typography color="white" fontSize={24} lineHeight={1}>
+          Co-Founder
+        </Typography>
+      </Stack>
+      <Stack
+        position="relative"
+        width={300}
+        height={390}
+        alignItems="center"
+        justifyContent="flex-end"
+        sx={{
+          background: "url('/assets/pg6/member frame.png') center/cover no-repeat",
+        }}
+        pb={5}
+        boxSizing="border-box"
+        spacing={1}
+        mt={10}
+      >
+        <Typography color="#f99215" fontSize={24} lineHeight={1}>
+          Ka
+        </Typography>
+        <Typography color="white" fontSize={24} lineHeight={1}>
+          Co-Founder
+        </Typography>
+      </Stack>
+      <Stack
+        position="relative"
+        width={300}
+        height={390}
+        alignItems="center"
+        justifyContent="flex-end"
+        sx={{
+          background: "url('/assets/pg6/member frame.png') center/cover no-repeat",
+        }}
+        pb={5}
+        boxSizing="border-box"
+        spacing={1}
+      >
+        <Typography color="#f99215" fontSize={24} lineHeight={1}>
+          Linda
+        </Typography>
+        <Typography color="white" fontSize={24} lineHeight={1}>
+          Marketing
+        </Typography>
+      </Stack>
+      <Stack
+        position="relative"
+        width={300}
+        height={390}
+        alignItems="center"
+        justifyContent="flex-end"
+        sx={{
+          background: "url('/assets/pg6/member frame.png') center/cover no-repeat",
+        }}
+        pb={5}
+        boxSizing="border-box"
+        spacing={1}
+      >
+        <Typography color="#f99215" fontSize={24} lineHeight={1}>
+          Huang
+        </Typography>
+        <Typography color="white" fontSize={24} lineHeight={1}>
+          Partnerships
+        </Typography>
+      </Stack>
+    </Stack>
+    
   </Stack>
 );
 

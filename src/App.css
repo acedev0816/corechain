@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "CodecProLight";
+  src: local("CodecPro-Light"),
+    url("./fonts/CodecPro-Light.ttf") format("truetype");
+}
+
+
+@font-face {
+  font-family: "CodecProBold";
+  src: local("CodecPro-Bold"),
+    url("./fonts/CodecPro-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "CodecProHeavy";
+  src: local("CodecPro-Heavy"),
+    url("./fonts/CodecPro-Heavy.ttf") format("truetype");
+}
