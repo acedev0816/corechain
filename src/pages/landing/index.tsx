@@ -25,7 +25,7 @@ const LandingPage = () => (
         through CORESwap
       </Typography>
       <Stack mt={2} direction="row" spacing={1}>
-        <img src="/assets/pg1/x.png" width={60} height={60} />
+        <img src="/assets/pg1/X.png" width={60} height={60} />
         <img src="/assets/pg1/telegram.png" width={60} height={60} />
       </Stack>
       <Stack mt={2} direction="row" spacing={2}>
